@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#A7FFEB"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:src="@mipmap/parking_icon_round"
+        android:layout_centerInParent="true"
+        android:layout_height="150dp" />
+    <TextView
+        android:paddingTop="16dp"
+        android:layout_width="wrap_content"
+        android:textColor="#616161"
+        android:text="Smart Parking. Smart Choice."
+        android:textSize="23sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

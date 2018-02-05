@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sub_title">23sp</dimen>
+    <dimen name="distanceLarge">10dp</dimen>
+    <dimen name="distanceSmall">5dp</dimen>
+
+
+</resources>
